@@ -1,13 +1,6 @@
-package ASHATIT_2220852_CONTROLLER;
+package com.example.group16.ASHATIT_2220852.user_1;
 
-import javafx.fxml.FXML;
-
-import java.awt.event.ActionEvent;
-
-public class Controller8 {
-}
-package ASHATIT_2220852_CONTROLLER;
-
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
