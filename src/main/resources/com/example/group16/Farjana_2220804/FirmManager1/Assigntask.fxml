@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group16.Farjana_2220804.FirmManager1.Assigntask">
+   <children>
+      <Label layoutX="28.0" layoutY="45.0" text="Task1" />
+      <Label layoutX="29.0" layoutY="87.0" text="Task2" />
+      <TextField layoutX="94.0" layoutY="41.0" onAction="#Task1FXID" />
+      <TextField layoutX="94.0" layoutY="83.0" onAction="#Task2FXID" />
+      <Button layoutX="38.0" layoutY="325.0" mnemonicParsing="false" onAction="#SaveOnMouseclick" text="Save" />
+      <Button layoutX="487.0" layoutY="325.0" mnemonicParsing="false" onAction="#BackOnMouseClick" text="Back" />
+   </children>
+</AnchorPane>
