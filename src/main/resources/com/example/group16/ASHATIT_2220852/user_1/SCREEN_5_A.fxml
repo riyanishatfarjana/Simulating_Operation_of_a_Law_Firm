@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Text?>
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group16.ASHATIT_2220852.Controller5">
-   <children>
-      <Button fx:id="b1" layoutX="359.0" layoutY="252.0" mnemonicParsing="false" onAction="#bb1text" prefHeight="45.0" prefWidth="134.0" text="payment" />
-      <TextField fx:id="b2" layoutX="26.0" layoutY="66.0" prefHeight="26.0" prefWidth="216.0" promptText="employ id" />
-      <TextField fx:id="b3" layoutX="26.0" layoutY="120.0" prefHeight="26.0" prefWidth="520.0" promptText="chosse a case type" />
-      <TextField fx:id="b4" layoutX="26.0" layoutY="175.0" prefHeight="26.0" prefWidth="530.0" promptText="payment method" />
-      <Text fx:id="b5" layoutX="26.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill all the blanks " wrappingWidth="207.9830722808838" />
-   </children>
-</AnchorPane>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.group16.ASHATIT_2220852.user_1.PayrollReportsController" spacing="10" alignment="CENTER">
+   <Label text="Generate Payroll Reports" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+   <Button text="Generate Report" onAction="#handleGenerateReport"/>
+   <Button text="Download Report" onAction="#handleDownloadReport"/>
+</VBox>
