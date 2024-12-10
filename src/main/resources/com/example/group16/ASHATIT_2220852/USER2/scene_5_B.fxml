@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.group16.ASHATIT_2220852_FXML.USER2.Scene5B"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.group16.ASHATIT_2220852.USER2.ReviewClientHistoryController" spacing="10" alignment="CENTER">
+    <Label text="Client Case History" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+    <TextField fx:id="clientIdField" promptText="Enter Client ID"/>
+    <Button text="Search" onAction="#handleSearchClient"/>
+</VBox>
