@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.group16.ASHATIT_2220852.user_1.ViewPaymentProfileController" spacing="10" alignment="CENTER">
-    <Label text="Payment Profile" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
-    <Button text="View Payment Details" onAction="#handleViewPaymentDetails"/>
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group16.ASHATIT_2220852.user_1.ViewPaymentProfileController">
+    <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Payment Profile" />
+    <Button onAction="#handleViewPaymentDetail" prefHeight="71.0" prefWidth="194.0" text="View Payment Detail" />
 </VBox>

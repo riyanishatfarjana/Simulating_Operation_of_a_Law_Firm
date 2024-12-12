@@ -3,15 +3,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group16.Farjana_2220804.FirmManager1.Dashboard">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group16.Farjana_2220804.FirmManager1.DashboardController">
    <children>
-      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#ShowLawyerOnMouseClick" text="Show Lawyer" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#ShowLawyerOnMouseClick" text="ShowLawyer" />
       <Button layoutX="14.0" layoutY="59.0" mnemonicParsing="false" onAction="#AddNewEmployeeOnMouseClick" text="AddNewEmployee" />
       <Button layoutX="14.0" layoutY="106.0" mnemonicParsing="false" onAction="#DeleteEmployeeOnMouseClick" text="DeleteEmployee" />
       <Button layoutX="14.0" layoutY="150.0" mnemonicParsing="false" onAction="#LeaveRequestOnMouseClick" text="LeaveRequest" />
       <Button layoutX="14.0" layoutY="200.0" mnemonicParsing="false" onAction="#AssignTaskOnMouseClick" text="AssignTask" />
-      <Button layoutX="14.0" layoutY="246.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="14.0" layoutY="289.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="14.0" layoutY="246.0" mnemonicParsing="false" onAction="#Button1onMouseClick" text="Button" />
+      <Button layoutX="14.0" layoutY="289.0" mnemonicParsing="false" onAction="#Button2OnMouseClick" text="Button" />
       <Button layoutX="14.0" layoutY="339.0" mnemonicParsing="false" text="Button" />
       <Button layoutX="499.0" layoutY="339.0" mnemonicParsing="false" onAction="#LogOutOnMouseClick" text="Logout" />
    </children>

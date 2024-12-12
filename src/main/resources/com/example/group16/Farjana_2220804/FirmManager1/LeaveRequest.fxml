@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="231.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group16.Farjana_2220804.FirmManager1.LeaveRequestController">
+   <children>
+      <DatePicker layoutX="104.0" layoutY="103.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button layoutX="84.0" layoutY="175.0" mnemonicParsing="false" onAction="#saveButtonOnMouseClick" text="Save" />
+      <Button layoutX="252.0" layoutY="175.0" mnemonicParsing="false" onAction="#backButtonOnMouseClick" text="Back" />
+   </children>
+</AnchorPane>
