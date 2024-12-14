@@ -7,8 +7,8 @@
    <children>
       <Label layoutX="28.0" layoutY="45.0" text="Task1" />
       <Label layoutX="29.0" layoutY="87.0" text="Task2" />
-      <TextField layoutX="94.0" layoutY="41.0" onAction="#Task1FXID" />
-      <TextField layoutX="94.0" layoutY="83.0" onAction="#Task2FXID" />
+      <TextField fx:id="Task1fxid" layoutX="94.0" layoutY="41.0" />
+      <TextField fx:id="Task2fxid" layoutX="94.0" layoutY="83.0" />
       <Button layoutX="38.0" layoutY="325.0" mnemonicParsing="false" onAction="#SaveOnMouseclick" text="Save" />
       <Button layoutX="487.0" layoutY="325.0" mnemonicParsing="false" onAction="#BackOnMouseClick" text="Back" />
    </children>
